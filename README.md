@@ -1,4 +1,4 @@
-<H3>ENTER YOUR NAME:hariharan A</H3>
+<H3>ENTER YOUR NAME: HARIHARAN A</H3>
 <H3>ENTER YOUR REGISTER NO:212222100012</H3>
 <H3>EX. NO.4</H3>
 <H3>DATE:</H3>
@@ -21,7 +21,7 @@ Step 8:Calculate the probability of the observed sequence by summing the last ro
 Step 9:Find the most likely sequence of hidden states by selecting the hidden state with the highest probability at each time step based on the alpha matrix.<br>
 
 ## Program:
-```
+```python
 #import required libraries
 
 import numpy as np
@@ -50,7 +50,6 @@ for t in range(len(observed_sequence)):
     most_likely_sequence.append("rainy")
 
 print("The most likely sequence of weather state is:", most_likely_sequence)
-
 ```
 
 ## Output:
